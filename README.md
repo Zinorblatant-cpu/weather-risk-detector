@@ -129,33 +129,6 @@ README.md                # Este documento
 
 ---
 
-## 📋 Como Rodar o Projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/weather-alert-system.git
-   cd weather-alert-system
-   ```
-
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Configure sua chave da API no `.env`:
-   ```
-   OPENWEATHER_API_KEY=your_api_key_here
-   ```
-
-4. Execute:
-   ```bash
-   python main.py
-   ```
-
-5. Selecione no menu a opção desejada para ver o alerta.
-
----
-
 ## 🧪 Exemplo de Saída
 
 ```
