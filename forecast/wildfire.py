@@ -39,6 +39,9 @@ def check_wildfire_risk(weather_data):
         max_wind = max(v['wind'] for v in values)
         avg_humidity = sum(v['humidity'] for v in values) / len(values)
 
+        if max_temp < 10:
+            continue
+
         # Cálculo do risco por dia
         risk_score = 0
         if max_temp > 35:

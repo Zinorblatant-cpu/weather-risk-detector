@@ -34,26 +34,50 @@ def menu(weather_data):
             elif choice == 1:
                 clear_screen()
                 check_thunderstorms(weather_data)
+                while True:
+                    input("\nPress any key to return to the menu...")
+                    clear_screen()
+                    break
 
             elif choice == 2:
                 clear_screen()
                 check_strong_wind(weather_data)
+                while True:
+                    input("\nPress any key to return to the menu...")
+                    clear_screen()
+                    break
 
             elif choice == 3:
                 clear_screen()
                 check_frost(weather_data)
+                while True:
+                    input("\nPress any key to return to the menu...")
+                    clear_screen()
+                    break
 
             elif choice == 4:
                 clear_screen()
-                check_floods(weather_data) 
+                check_floods(weather_data)
+                while True:
+                    input("\nPress any key to return to the menu...")
+                    clear_screen()
+                    break
 
             elif choice == 5:
                 clear_screen()
                 check_dry_and_hot_weather(weather_data)
+                while True:
+                    input("\nPress any key to return to the menu...")
+                    clear_screen()
+                    break
             
             elif choice == 6:
                 clear_screen()
                 check_wildfire_risk(weather_data)
+                while True:
+                    input("\nPress any key to return to the menu...")
+                    clear_screen()
+                    break
 
             elif choice == 7:
                 clear_screen()
@@ -84,8 +108,13 @@ def menu(weather_data):
 if __name__ == '__main__':
     API_KEY = '512569ff925265363234407e3e1cac15'
 
-    lat = 12.65
-    lon = -8.98
+
+    # Coordenadas de Bamaco, Mali
+    # lat = 12.65
+    # lon = -8.98
+
+    lat = -77.85  
+    lon = 166.67 
 
     URL = f'https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API_KEY}&units=metric'
 
