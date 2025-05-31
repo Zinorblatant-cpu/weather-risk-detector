@@ -1,5 +1,3 @@
----
-
 # 🌤️ Sistema de Alertas Climáticos
 
 ## 📌 Descrição Geral
