@@ -200,6 +200,9 @@ Calcula um score de risco com base em:
 Integrantes desse projeto:
 
 - **Nome:** Leonardo Lopes rm:565437
+- **Nome:** Gabriel Hiro rm:562221
+- **Nome:** Giovanni de lela rm:563066
+
 
 
 ---
